@@ -1,0 +1,2 @@
+(function(){function add(){if(document.getElementById('maps-link'))return;var a=document.createElement('a');a.id='maps-link';a.href='/queenslander-shipwrecked-on-ancient-ground/extras/';a.textContent='Maps and pictures';a.setAttribute('style','position:fixed;right:10px;bottom:10px;z-index:50;background:#1f4a4f;color:#f3efe6;font:14px Georgia,serif;padding:8px 12px;text-decoration:none;box-shadow:0 1px 4px rgba(0,0,0,.3)');document.body.appendChild(a);}
+if(document.readyState==='complete')setTimeout(add,800);else addEventListener('load',function(){setTimeout(add,800)});})();
